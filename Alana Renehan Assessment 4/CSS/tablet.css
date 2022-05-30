@@ -1,0 +1,320 @@
+@charset "UTF-8";
+@media only screen and (min-width: 701px) and (max-width: 1300px) {
+
+  .fixed-width {
+    width:90%;
+    display: block;
+  }
+  a {
+    color: #B98B40;
+    font-size: 21px;
+    text-decoration: none;
+    font-family: Marcellus;
+  }
+  h1 {
+    font-size:45px;
+
+
+  }
+  h2 {
+
+    font-size: 35px;
+
+  }
+  h3 {
+    font-size: 25px;
+
+  }
+  h4 {
+
+    font-size: 22px;
+
+  }
+  h5 {
+
+    font-size: 45px;
+
+  }
+  p {
+    font-size: 17px;
+  }
+
+  .header-content {
+      height:100%;
+
+    }
+    .hamburger {
+        display: block;
+        margin-bottom: 2%;
+        margin-left: 90%;
+      }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+      }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+      }
+      .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+      }
+    .nav-menu {
+      position:fixed;
+      left: -100%;
+      top:70px;
+      gap: 0;
+      flex-direction: column;
+      background-color: black;
+      width:100%;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .nav-item {
+      margin: 16px 0;
+
+    }
+
+    .nav-menu.active{
+      left:0;
+    }
+
+.contactbutt {
+  display: none;
+}
+
+  .hero {
+    height:250px;
+    margin-top: 0;
+  }
+  .hero-image {
+    height:250px;
+    background-size:cover;
+  }
+.heroheadings {
+  margin-top: 0;
+}
+  .Target {
+    margin-top: 10%;
+  }
+
+  .sub2 {
+    display: none;
+  }
+  .buttons {
+    display: none;
+  }
+
+  .intro-content {
+    display: flex;
+    flex-direction:row;
+  }
+  .introparagraph {
+    line-height: 25px;
+    margin-left: 7%;
+    margin-top: 12%;
+  }
+  .introparagraph h2 {
+    font-size:27px;
+    margin-bottom: 2%;
+
+  }
+  .introphoto {
+    width:100%;
+    padding:16px;
+  }
+  .introphoto img{
+   width: 100%;
+   height:100%;
+
+  }
+
+  .myvideo {
+
+    width:90%;
+    height:415px;
+  }
+
+  .gallery {
+    height:100%;
+    margin-bottom: 10%;
+  }
+.lightbox {
+  display:none;
+}
+  .slides {
+    margin-top: 5%;
+    margin-left: 40px;
+    display:flex;
+    height:100%;
+
+  }
+  .mySlides {
+    max-width: 100%;
+  }
+
+  .longley-content {
+    display: flex;
+    flex-direction: row;
+  }
+  .longleyimage {
+    margin-top: 15%;
+  }
+  .longleyimage img{
+    width: 120%;
+    height: 95%;
+
+  }
+  .longleyparagraph {
+    width: 100%;
+    margin-right: 7%;
+  }
+
+  /* Ticket section */
+  .tickets-content {
+    margin-bottom: 30px;
+  }
+  .ticketimages {
+    display:none;
+  }
+  .ticketoptions-2 {
+    display: block;
+  }
+  .tabletticket {
+    display: block;
+  }
+  .hbutton1 {
+   height: 63px;
+   width: 400px;
+  }
+  .hbutton1 a{
+    font-size: 23px;
+  }
+  .hbutton2 {
+   margin-left: 20px;
+   height: 63px;
+   width: 400px;
+  }
+  .hbutton2 a{
+    font-size: 23px;
+  }
+  .phoneticket {
+    display: none;
+    }
+  .ticketoptions-1 {
+    display: none;
+  }
+  /* Dropdown Button */
+  .dropbtn-2 {
+
+    background-color: #9E7A3E;
+    border-radius: 6px;
+    color: #211023;
+    font-family: Marcellus;
+    font-size: 20px;
+    width:850px;
+    height:60px;
+    border: 2px solid #B98B40;
+
+  }
+  /* Dropdown button on hover & focus */
+  .dropbtn-2:hover, .dropbtn-2:focus {
+    background-color: #FFF5CF;
+    -webkit-transition: 3s;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown-2 {
+    position: relative;
+    display: inline-block;
+  }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content-2 {
+    display: none;
+    position: absolute;
+    background-color: #FFF5CF;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content-2 a {
+    color: #211023;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content-2 a:hover{
+    background-color: #ddd;
+    }
+  .show-2 {
+    display:block;
+  }
+  /* End Ticket section */
+
+
+
+
+  .footer-content {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    align-content:center;
+  }
+  .manager {
+    display: none;
+  }
+  .alt-links {
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+  }
+  .altmanager a{
+    color: #ECDFAF;
+    font-size: 22px;
+    text-align: center;
+
+  }
+  .altvisit {
+    margin-bottom: 15px;
+
+
+  }
+  .visit {
+    display: none;
+  }
+  .altvisit a{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+  }
+  .extras {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  .lifelinelogo {
+    height:90px;
+    width:200px;
+  }
+  .lifelinelogo img {
+    height: 100%;
+    width: 100%;
+
+  }
+  .socialmedia {
+    height:40px;
+    width:200px;
+
+  }
+  .socialmedia img {
+    height:100%;
+    width:100%;
+
+
+  }
+  .socialmedia a{
+    margin-right: 10px;
+  }
+
+
+} /* do not delete this is the media query bracket */

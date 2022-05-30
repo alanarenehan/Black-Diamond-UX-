@@ -1,0 +1,321 @@
+@charset "UTF-8";
+@media only screen and (max-width:700px) {
+
+  .fixed-width {
+    width:90%;
+    display: block;
+  }
+  a {
+    color: #B98B40;
+    font-size: 21px;
+    text-decoration: none;
+    font-family: Marcellus;
+  }
+  h1 {
+    font-size:35px;
+
+
+  }
+  h2 {
+
+    font-size: 25px;
+
+  }
+  h3 {
+    font-size: 15px;
+
+  }
+  h4 {
+
+    font-size: 12px;
+
+  }
+  h5 {
+
+    font-size: 35px;
+
+  }
+  p {
+    width:100%;
+    font-size: 15px;
+
+
+  }
+
+
+.header-content {
+    height:92px;
+  }
+.nav-branding {
+  margin-bottom: 2%;
+}
+
+.hamburger {
+    display: block;
+    margin-bottom: 2%;
+    margin-left: 90%;
+  }
+
+.hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+.hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+.nav-menu {
+  position:fixed;
+  left: -100%;
+  top:70px;
+  gap: 0;
+  flex-direction: column;
+  background-color: black;
+  width:100%;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.nav-item {
+ margin: 16px 0;
+
+}
+
+.nav-menu.active{
+  left:0;
+}
+
+.contactbutt {
+  display: none;
+}
+  .hero {
+    height:200px;
+
+  }
+
+  .heroheadings {
+    margin-top: 0;
+  }
+  .hero-image {
+    height:200px;
+    background-size:cover;
+  }
+
+.Target {
+  margin-top: 10%;
+}
+
+
+  .sub2 {
+    display: none;
+  }
+  .buttons {
+    display: none;
+  }
+
+  .introparagraph {
+    width: 100%;
+    line-height: 25px;
+  }
+  .introparagraph h2 {
+    font-size: 25px;
+  }
+  .introphoto {
+    display: none;
+  }
+  .introphoto img{
+    display: none;
+  }
+
+  .myvideo {
+
+    width:90%;
+    height:415px;
+  }
+
+.lightbox {
+  display: none;
+}
+
+.gallery {
+  height:100%;
+}
+  .slides {
+    display:flex;
+    height:100%;
+  }
+  .mySlides {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .longleyimage {
+    display:none;
+  }
+  .longleyparagraph {
+    display: none;
+  }
+  .alt {
+    width: 100%;
+    display: block;
+  }
+  .longleybutton {
+    display:flex;
+    justify-content:center;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #ECDFAF;
+    margin-left: 30%;
+    margin-bottom: 5%;
+  }
+  .longleybutton a{
+    align-self:center;
+    font-size: 16px;
+    color: #211023;
+  }
+
+  /* Ticket section */
+  .tickets-content {
+    margin-bottom: 30px;
+  }
+  .ticketimages {
+    display:none;
+  }
+  .ticketoptions-2 {
+    display: none;
+  }
+  .tabletticket {
+    display: none;
+  }
+  .phoneticket {
+    display: block;
+  }
+  .phoneticket img {
+    width: 100%;
+  }
+  .ticketoptions-1 {
+    display: block;
+  }
+  .hbutton1 {
+   height: 53px;
+   width: 220px;
+  }
+  .hbutton1 a{
+    font-size: 20px;
+  }
+  .hbutton2 {
+   margin-left: 20px;
+   height: 53px;
+   width: 220px;
+  }
+  .hbutton2 a{
+    font-size: 20px;
+  }
+  /* Dropdown Button */
+  .dropbtn-1 {
+
+    margin-top: 5%;
+    background-color: #9E7A3E;
+    border-radius: 6px;
+    color: #211023;
+    font-family: Marcellus;
+    font-size: 20px;
+    width:200%;
+    height:54px;
+    border: 2px solid #B98B40;
+    cursor: pointer;
+  }
+  /* Dropdown button on hover & focus */
+  .dropbtn-1:hover, .dropbtn-1:focus {
+    background-color: #FFF5CF;
+    -webkit-transition: 3s;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown-1 {
+    position: relative;
+    display: inline-block;
+  }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content-1 {
+    display: none;
+    position: absolute;
+    background-color: #FFF5CF;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content-1 a {
+    color: #211023;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content-1 a:hover{
+    background-color: #ddd;
+    }
+  .show {
+    display:block;
+  }
+  /* End Ticket section */
+
+  .sponsers {
+    display: none;
+  }
+
+  .footer-content {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    align-content:center;
+  }
+  .manager {
+    display: none;
+  }
+  .alt-links {
+    display: flex;
+    flex-direction:column;
+  }
+  .altmanager a{
+    color: #ECDFAF;
+    font-size: 18px;
+  }
+  .altvisit {
+    margin-bottom: 15px;
+
+  }
+  .visit {
+    display: none;
+  }
+  .altvisit a{
+    color: white;
+    font-size: 18px;
+  }
+  .extras {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  .lifelinelogo {
+    height:60px;
+    width:150px;
+  }
+  .lifelinelogo img {
+    height: 100%;
+    width: 100%;
+
+  }
+  .socialmedia {
+    width:150px;
+
+  }
+
+
+  .socialmedia a{
+    margin-right: 10px;
+  }
+
+
+} /* do not delete this is the media query bracket */
